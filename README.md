@@ -1,4 +1,4 @@
-# Native Request
+# Native Request Light
 [![npm version](https://badge.fury.io/js/native-request-light.svg)](https://badge.fury.io/js/native-request-light) ![npm](https://img.shields.io/npm/dm/native-request-light)
 
 
@@ -38,7 +38,7 @@ npm install native-request-light
 Easy
 
 ```js
-let request = require('native-request');
+let request = require('native-request-light');
 
 request.request({
         url: "http://github.com/",
@@ -53,7 +53,7 @@ request.request({
 
 Full
 ```js
-let request = require('native-request');
+let request = require('native-request-light');
 
 request.request({
         url: "http://github.com/",
@@ -87,7 +87,7 @@ request.request({
 
 
 ```js
-let request = require('native-request');
+let request = require('native-request-light');
 request.get('https://github.com', function(err, data, status, headers) {
     if (err) {
         throw err;
@@ -99,7 +99,7 @@ request.get('https://github.com', function(err, data, status, headers) {
 ```
 To add custom **headers** just do like this:
 ```js
-let request = require('native-request');
+let request = require('native-request-light');
 
 let headers = {
     "content-type": "plain/text"
@@ -121,7 +121,7 @@ request.get('https://github.com', headers, function(err, data, status, headers) 
  
 To send an empty **post**:
 ```js
-let request = require('native-request');
+let request = require('native-request-light');
 request.post('https://github.com', function(err, data, status, headers) {
     if (err) {
         throw err;
@@ -135,7 +135,7 @@ request.post('https://github.com', function(err, data, status, headers) {
 With headers and data:
 
 ```js
-let request = require('native-request');
+let request = require('native-request-light');
 
 let data = {
     "example": true,
