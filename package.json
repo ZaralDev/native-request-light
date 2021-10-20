@@ -1,18 +1,19 @@
 {
-	"name": "native-request",
-	"version": "1.1.0",
+	"name": "native-request-light",
+	"version": "1.0.0",
 	"author": {
 		"name": "Samuel Marchese",
 		"email": "contact@zaral.fr",
 		"url": "https://zaral.fr"
 	},
 	"bugs": {
-		"url": "https://github.com/ZaralDev/native-request/issues"
+		"url": "https://github.com/ZaralDev/native-request-light/issues"
 	},
-	"description": "A simple package with no dependencies for native requests using callback",
+	"description": "A light version of native-request - A simple package with no dependencies for native requests using callback",
 	"main": "index.js",
 	"keywords": [
 		"node-request",
+		"node-request-light",
 		"native-request",
 		"request",
 		"node-fetch",
@@ -37,7 +38,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/ZaralDev/native-request.git"
+		"url": "git://github.com/ZaralDev/native-request-light.git"
 	},
 	"scripts": {
 		"test": "node ./node_modules/mocha/bin/mocha"
